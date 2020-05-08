@@ -1,66 +1,47 @@
-# Project Name
+# AR Plane
 
 ## Introduction:
 
-This project is created to understand the working of Project Name and also to have a ready made component for integration in the projects. 
-
-If you want to implement it straight away, you can make copy the handler in the project and jump to the Usage part.
+This project is created to understand the working of AR Kit using 3D Object. 
 
 ---------------------------------------------------------------------------------------------------
 
 ## Installation:
 
-<Mention installation step if any> else
-
-There is no specific installation needed for this implementation.
-
+You need to create an AR app using Augmented Reality App template.
 
 ----------------------------------------------------------------------------------------------------
 
 ## Configuration:
 
- <Mention the configuration below if any> else
-
-```
-Put your configuration here.
-```
 
 There is no specific configuration needed for this implementation.
 
 ----------------------------------------------------------------------------------------------------
 
-## Coding Part - Handler:
+## Coding Part 
 
-There are two important section of this handler. (i) Initialization and Constumption
 
-### Initialization
-
-```
-    Put your code here
-```
-
-### Consumption
+### Setting the Anchor and adding 3D model
 
 ```
-    Put your code here
+    func showARObject(objectName:String) {
+       
+       //Adding horizontal anchor to the view
+       let anchor = AnchorEntity(plane:.horizontal)
+       arView.scene.addAnchor(anchor)
+       
+       //Adding AR Object
+       let arModel = try! Entity.loadModel(named:objectName)
+       anchor.addChild(arModel)
+       
+    }
 ```
 
-
-----------------------------------------------------------------------------------------------------
-
-## Helper Part
-
-### Toast  is used for assisting the main functionality
-
-----------------------------------------------------------------------------------------------------
-
-## Usage Part
-
-### Invoke the below specific function to use in your View Controller. 
+### Invoking
 
 ```
-    Put your code here
+    showARObject(objectName:"toy_car")
 ```
 
-
-### Check out my Post about Project Name : [Project Name](https://vijaysn.com/2020/04/23/ios-av-player/)
+### Check out my Post about Augmented Reality : [Augmented Reality - I](https://vijaysn.com/mobile/ios/ios-augmented-reality-ar-i)
