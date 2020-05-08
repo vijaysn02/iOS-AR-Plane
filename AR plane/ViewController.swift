@@ -16,10 +16,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+         showARObject(objectName:"toy_car")
+    }
+    func showARObject(objectName:String) {
+       
+       //Adding horizontal anchor to the view
+       let anchor = AnchorEntity(plane:.horizontal)
+       arView.scene.addAnchor(anchor)
+       
+       //Adding AR Object
+       let arModel = try! Entity.loadModel(named:objectName)
+       anchor.addChild(arModel)
+       
     }
 }

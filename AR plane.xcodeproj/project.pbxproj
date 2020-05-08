@@ -11,19 +11,25 @@
 		5035D43B246533B100D48015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035D43A246533B100D48015 /* ViewController.swift */; };
 		5035D43D246533B100D48015 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5035D43C246533B100D48015 /* Experience.rcproject */; };
 		5035D440246533B100D48015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5035D43E246533B100D48015 /* Main.storyboard */; };
-		5035D442246533B400D48015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5035D441246533B400D48015 /* Assets.xcassets */; };
-		5035D445246533B400D48015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5035D443246533B400D48015 /* LaunchScreen.storyboard */; };
+		5035D44F246533D300D48015 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5035D44C246533D200D48015 /* toy_drummer.usdz */; };
+		5035D450246533D300D48015 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5035D44D246533D300D48015 /* toy_biplane.usdz */; };
+		5035D451246533D300D48015 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5035D44E246533D300D48015 /* toy_car.usdz */; };
+		5035D4562465357900D48015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5035D4532465357900D48015 /* Assets.xcassets */; };
+		5035D4572465357900D48015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5035D4542465357900D48015 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5035D435246533B100D48015 /* AR plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5035D435246533B100D48015 /* AR Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5035D438246533B100D48015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5035D43A246533B100D48015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5035D43C246533B100D48015 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		5035D43F246533B100D48015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5035D441246533B400D48015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5035D444246533B400D48015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5035D446246533B400D48015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5035D44C246533D200D48015 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		5035D44D246533D300D48015 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		5035D44E246533D300D48015 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		5035D4532465357900D48015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5035D4552465357900D48015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		5035D436246533B100D48015 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5035D435246533B100D48015 /* AR plane.app */,
+				5035D435246533B100D48015 /* AR Car.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +62,26 @@
 		5035D437246533B100D48015 /* AR plane */ = {
 			isa = PBXGroup;
 			children = (
+				5035D44D246533D300D48015 /* toy_biplane.usdz */,
+				5035D44E246533D300D48015 /* toy_car.usdz */,
+				5035D44C246533D200D48015 /* toy_drummer.usdz */,
 				5035D438246533B100D48015 /* AppDelegate.swift */,
 				5035D43A246533B100D48015 /* ViewController.swift */,
 				5035D43C246533B100D48015 /* Experience.rcproject */,
 				5035D43E246533B100D48015 /* Main.storyboard */,
-				5035D441246533B400D48015 /* Assets.xcassets */,
-				5035D443246533B400D48015 /* LaunchScreen.storyboard */,
+				5035D4522465357900D48015 /* Resources */,
 				5035D446246533B400D48015 /* Info.plist */,
 			);
 			path = "AR plane";
+			sourceTree = "<group>";
+		};
+		5035D4522465357900D48015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5035D4532465357900D48015 /* Assets.xcassets */,
+				5035D4542465357900D48015 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +101,7 @@
 			);
 			name = "AR plane";
 			productName = "AR plane";
-			productReference = 5035D435246533B100D48015 /* AR plane.app */;
+			productReference = 5035D435246533B100D48015 /* AR Car.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5035D445246533B400D48015 /* LaunchScreen.storyboard in Resources */,
-				5035D442246533B400D48015 /* Assets.xcassets in Resources */,
+				5035D450246533D300D48015 /* toy_biplane.usdz in Resources */,
 				5035D440246533B100D48015 /* Main.storyboard in Resources */,
+				5035D44F246533D300D48015 /* toy_drummer.usdz in Resources */,
+				5035D4572465357900D48015 /* LaunchScreen.storyboard in Resources */,
+				5035D451246533D300D48015 /* toy_car.usdz in Resources */,
+				5035D4562465357900D48015 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +175,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5035D443246533B400D48015 /* LaunchScreen.storyboard */ = {
+		5035D4542465357900D48015 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5035D444246533B400D48015 /* Base */,
+				5035D4552465357900D48015 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -285,13 +305,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "AR plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.AR-plane";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.AR-car";
+				PRODUCT_NAME = "AR Car";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +323,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "AR plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.AR-plane";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.AR-car";
+				PRODUCT_NAME = "AR Car";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
