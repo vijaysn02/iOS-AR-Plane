@@ -44,4 +44,4 @@ There is no specific configuration needed for this implementation.
     showARObject(objectName:"toy_car")
 ```
 
-### Check out my Post about Augmented Reality : [Augmented Reality - I](https://vijaysn.com/mobile/ios/ios-augmented-reality-ar-i)
+### Check out my Article about Augmented Reality : [Augmented Reality - I](https://vijaysn.com/mobile/ios/ios-augmented-reality-ar-i)
